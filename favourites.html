@@ -1,0 +1,175 @@
+<html>
+<head>
+	<title> Favourites</title>
+	<link rel="stylesheet" type="text/css" href="css/cus.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="js/main1.js"></script>
+
+<div class="collapse navbar-collapse" id="navbars-rs-food">
+  <ul class="navbar-nav ml-auto">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+            <div style="font-family: 'Lemonada', cursive;">Food app</div>
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Franchise</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="spl"><a href="#!/">Logout</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <div id="mainFrame" class="col-md-12" ng-controller="foodListController">
+    <div><h1>Select your favourite ingridients...</h1></div>
+    <div id="listHold" class="col-md-6">
+    <div id="list01" class="col-md-4">
+      <div class="well">
+        <input type="checkbox" id="ig0" value="sundae"><label for="ig0">Sundae</label>
+      </div>
+      <div class="well">
+        <input type="checkbox" id="ig1" value="tacos"><label for="ig1">Tacos</label>
+      </div>
+      <div class="well">
+        <input type="checkbox" id="ig2" value="tomato"><label for="ig2">Tomato</label>
+      </div>
+      <div class="well">
+        <input type="checkbox" id="ig3" value="meat"><label for="ig3">Meat</label>
+      </div>
+      <div class="well">
+        <input type="checkbox" id="ig4" value="pizza"><label for="ig4">Pizza</label>
+      </div>
+      <div class="well">
+        <input type="checkbox" id="ig5" value="lettuce"><label for="ig5">Lettuce</label>
+      </div>
+      <div class="well">
+        <input type="checkbox" id="ig6" value="chicken"><label for="ig6">Chicken</label>
+      </div>
+      <div class="well">
+        <input type="checkbox" id="ig7" value="chocolate"><label for="ig7">Chocolate</label>
+      </div>
+      <div class="well">
+        <input type="checkbox" id="ig8" value="crust"><label for="ig8">Crust</label>
+      </div>
+      <div class="well">
+        <input type="checkbox" id="ig9" value="cheese"><label for="ig9">Cheese</label>
+      </div>
+    </div>
+    <div id="list02" class="col-md-4">
+      <div class="well">
+        <input type="checkbox" id="ig10" value="kebab"><label for="ig10">Kebab</label>
+      </div>
+      <div class="well">
+        <input type="checkbox" id="ig11" value="barbecue"><label for="ig11">Barbecue</label>
+      </div>
+      <div class="well">
+        <input type="checkbox" id="ig12" value="salt"><label for="ig12">Salt</label>
+      </div>
+      <div class="well">
+        <input type="checkbox" id="ig13" value="avacado"><label for="ig13">Avacado</label>
+      </div>
+      <div class="well">
+        <input type="checkbox" id="ig14" value="chicken wings"><label for="ig14">Chicken Wings</label>
+      </div>
+      <div class="well">
+        <input type="checkbox" id="ig15" value="berry"><label for="ig15">Berry</label>
+      </div>
+      <div class="well">
+        <input type="checkbox" id="ig16" value="vegetable"><label for="ig16">Vegetable</label>
+      </div>
+      <div class="well">
+        <input type="checkbox" id="ig17" value="fish"><label for="ig17">Fish</label>
+      </div>
+      <div class="well">
+        <input type="checkbox" id="ig18" value="corn"><label for="ig18">Corn</label>
+      </div>
+      <div class="well">
+        <input type="checkbox" id="ig19" value="cream"><label for="ig19">Cream</label>
+      </div>
+    </div>
+    <div id="list03" class="col-md-4">
+      <div class="well">
+        <input type="checkbox" id="ig20" value="onion"><label for="ig20">Onion</label>
+      </div>
+      <div class="well">
+        <input type="checkbox" id="ig21" value="salad"><label for="ig21">Salad</label>
+      </div>
+      <div class="well">
+        <input type="checkbox" id="ig22" value="beef"><label for="ig22">Beef</label>
+      </div>
+      <div class="well">
+        <input type="checkbox" id="ig23" value="sweet"><label for="ig23">Sweet</label>
+      </div>
+      <div class="well">
+        <input type="checkbox" id="ig24" value="cake"><label for="ig24">Cake</label>
+      </div>
+      <div class="well">
+        <input type="checkbox" id="ig25" value="pie"><label for="ig25">Pie</label>
+      </div>
+      <div class="well">
+        <input type="checkbox" id="ig26" value="jam"><label for="ig26">Jam</label>
+      </div>
+      <div class="well">
+        <input type="checkbox" id="ig27" value="milk"><label for="ig27">Milk</label>
+      </div>
+      <div class="well">
+        <input type="checkbox" id="ig28" value="candy"><label for="ig28">Candy</label>
+      </div>
+      <div class="well">
+        <input type="checkbox" id="ig29" value="pastry"><label for="ig29">Pastry</label>
+      </div>
+      <div class="modal-footer">
+        <a onclick="newProject()" href="#!" class="modal-close waves-effect waves-green btn-flat">Submit</a>
+    </div>
+    </div>
+  </div>
+  <p class="m-b-2">
+</p>
+<a href="submit.html"class="tm-btn text-uppercase">submit</a>
+
+</div>
+</div>
+    <!-- <div>This could probably be your favourite dish <span class="dish-name">{{bgSet.name}}</span></div> -->
+    <div class="name-box"><span class="dish-name"></span> </br>could probably be your favourite dish*</div>
+    <!-- <div class="imgBottom col-md-12"></div> -->
+  </div>
+  <div ng-hide="bgSet.name">Try selecting relevent elements</div>
+  </div>
+</div>
+<div class="footer col-md-12">
+<div class="row">
+  <div class="foot-list col-md-4">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Franchise</a></li>
+          <li><a href="">Contact</a></li>
+    </ul>
+  </div>
+  <div class="socio foot-list col-md-2 pull-right">
+    <li><a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+      <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+    </div>
+</div>
+</div>
+</body>
+</html>
+
